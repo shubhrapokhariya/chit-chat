@@ -7,7 +7,7 @@ import { client } from "../apollo-client";
 import { Toaster } from "react-hot-toast";
 import ChatProvider from "../chatContext";
 
-function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
+function MyApp({ Component, pageProps: { session, ...pageProps } }: any) {
     return (
         <ApolloProvider client={client}>
             <SessionProvider session={session}>
