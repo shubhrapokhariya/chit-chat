@@ -7,11 +7,3 @@ export const client = new ApolloClient({
     },
     cache: new InMemoryCache(),
 });
-
-// export const emailClient = new ApolloClient({
-//     uri: `${process.env.NEXT_PUBLIC_SUPABASE_URL}`,
-//     headers: {
-//         Authorization: `Apikey ${process.env.NEXT_PUBLIC_SUPABASE_API_KEY} `,
-//     },
-//     cache: new InMemoryCache(),
-// });

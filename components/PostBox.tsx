@@ -113,7 +113,7 @@ const PostBox = ({ community }: Props) => {
                     placeholder={
                         session
                             ? community
-                                ? `Create a post in c/${community}`
+                                ? `Create a post in ${community}`
                                 : `Create a post by entering a title`
                             : `Signin to post`
                     }

@@ -1,4 +1,4 @@
 configurationset:
-  - configuration:
-      name: postgresql_config
-      uri: postgresql://postgres:Shubohit@$$99@db.bfqjmochzykknspxioug.supabase.co/postgres
+    - configuration:
+          name: postgresql_config
+          uri: process.env.uri
